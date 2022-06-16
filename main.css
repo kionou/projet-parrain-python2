@@ -334,7 +334,7 @@ html{
 
                 .fas {
                     font-size: 30px;
-                    color: bisque;
+                    color: rgb(18, 207, 106);
                 }
 
                 .inputsearch {
@@ -382,6 +382,7 @@ html{
     .search-box input{
         width: 269px;
         height:30px;
+        margin-right:10px ;
     }
     .search-box button{
         right: 236px;
