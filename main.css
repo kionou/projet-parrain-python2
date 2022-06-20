@@ -50,7 +50,9 @@ html{
 
 
 }
-
+ .nav div.media{
+    display: none;
+ }
 
 
 .nav div.media_button {
@@ -321,38 +323,21 @@ html{
         height: 40px;
     }
 
-        .nav div.media {
-            /* width: 40px;
-            height: 40px; */
-            background-color: transparent;
-            position: absolute;
-            right: 70px;
-            display: flex;
-            border:1px solid red;
-            padding: 10px;
-        }
+    .nav div.media {
+        background-color: transparent;
+        position: absolute;
+        right: 70px;
+        display: flex;
+        padding: 13px;
+    }
 
-                .fas {
-                    font-size: 30px;
-                    color: rgb(18, 207, 106);
-                }
-
-                .inputsearch {
-                    width: 357px;
-                    height: 2.5rem;
-                    padding: 5px;
-                    /* display: none; */
-                    border-radius: 5px;
-                    border: none;
-                    font-family: 'Roboto Serif', serif;
-                    font-size: 16px;
-                }
-        
-        
-        
-                .inputsearch:focus {
-                    outline: none;
-                }
+    .fas {
+        font-size: 27px;
+        color: rgb(18, 207, 106);
+        padding-top: 4px;
+        display: block;
+    }
+  
     .tablette {
          display: block;
     }
@@ -365,16 +350,6 @@ html{
         text-transform: capitalize;
     }
    
-         
-
-    /* .nav div.main_list ul li a{
-      text-align: center;
-        line-height: 40px;
-        width: 100%;
-        height: 40px;
-        display: table;
-    } */
-    
     .nav div.media_button{
         display: block;
     }
@@ -383,6 +358,7 @@ html{
         width: 269px;
         height:30px;
         margin-right:10px ;
+        display: none;
     }
     .search-box button{
         right: 236px;
@@ -393,13 +369,11 @@ html{
         padding: 1rem;
         text-transform: capitalize;
         background-color: transparent;
-        cursor: pointer;
-        
+        cursor: pointer;   
     }
 
     .boutton:hover {
         background-color: transparent;
-    
     }
 
     .hero{
@@ -423,5 +397,22 @@ html{
 @media screen and (max-width:596px){
     .hero p{
         width: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .search-box input {
+        width: auto;      
+    }
+
+    .fas {
+        font-size: 24px;               
+    }
+    .container .logo {
+        margin-left: 0px;
+    }
+
+    .nav div.media{
+        right: 50px;
     }
 }
