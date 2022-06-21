@@ -21,7 +21,10 @@ let input = document.querySelector(" .inputsearch");
 console.log(input);
 icon.addEventListener("click", (e) => {
   e.preventDefault();
-//   icon.style.display = "none";
+  input.classList.toggle("shownav_list");
+  icon.classList.toggle("active");
+  
   input.style.display = "block";
+
 });
 
