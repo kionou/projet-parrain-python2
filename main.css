@@ -47,8 +47,6 @@ html{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
-
 }
  .nav div.media{
     display: none;
@@ -337,7 +335,7 @@ html{
         width: 269px;
         height:30px;
         margin-right:10px ;
-        display: none;
+        display: block;
     }
     .search-box button{
         right: 236px;

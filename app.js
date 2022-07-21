@@ -14,17 +14,23 @@ mediaButton.onclick = function () {
     mainListDiv.classList.toggle("show_list");
     mediaButton.classList.toggle("active");
 };
-// je dois chercher comment annuler un backgroundcolor et un onclick
 
-let icon = document.querySelector(".search");
-let input = document.querySelector(" .inputsearch");
-console.log(input);
-icon.addEventListener("click", (e) => {
-  e.preventDefault();
-  input.classList.toggle("shownav_list");
-  icon.classList.toggle("active");
+
+// let icon = document.querySelector(".search");
+// let input = document.querySelector(" .inputsearch");
+
+// icon.addEventListener("click", (e) => {
+//   e.preventDefault();
+//   input.classList.toggle("shownav_list");
+//   // icon.classList.toggle("active");
   
-  input.style.display = "block";
+//   // input.style.display = "block";
 
-});
+// });
+
+function myfonction (){
+  let input = document.querySelector(" .search-box input");
+  input.classList.toggle("shownav_list");
+
+}
 
