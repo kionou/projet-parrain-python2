@@ -335,7 +335,7 @@ html{
         width: 269px;
         height:30px;
         margin-right:10px ;
-        display: block;
+        display: none;
     }
     .search-box button{
         right: 236px;
